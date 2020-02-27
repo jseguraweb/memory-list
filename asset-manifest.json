@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/memory-list/static/css/main.7c4738ba.chunk.css",
-    "main.js": "/memory-list/static/js/main.081a1674.chunk.js",
-    "main.js.map": "/memory-list/static/js/main.081a1674.chunk.js.map",
-    "runtime-main.js": "/memory-list/static/js/runtime-main.f1c7f64e.js",
-    "runtime-main.js.map": "/memory-list/static/js/runtime-main.f1c7f64e.js.map",
-    "static/js/2.9cd1776a.chunk.js": "/memory-list/static/js/2.9cd1776a.chunk.js",
-    "static/js/2.9cd1776a.chunk.js.map": "/memory-list/static/js/2.9cd1776a.chunk.js.map",
-    "index.html": "/memory-list/index.html",
-    "precache-manifest.2171f9cc2a4b83ae468429e0193a963b.js": "/memory-list/precache-manifest.2171f9cc2a4b83ae468429e0193a963b.js",
-    "service-worker.js": "/memory-list/service-worker.js",
-    "static/css/main.7c4738ba.chunk.css.map": "/memory-list/static/css/main.7c4738ba.chunk.css.map",
-    "static/js/2.9cd1776a.chunk.js.LICENSE.txt": "/memory-list/static/js/2.9cd1776a.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/memory-list/static/media/board.d3c0c152.jpg",
-    "static/media/ListItem.scss": "/memory-list/static/media/postit2.80251847.png"
+    "main.css": "/memory-list/public/static/css/main.3cb3dd96.chunk.css",
+    "main.js": "/memory-list/public/static/js/main.081a1674.chunk.js",
+    "main.js.map": "/memory-list/public/static/js/main.081a1674.chunk.js.map",
+    "runtime-main.js": "/memory-list/public/static/js/runtime-main.0b082d74.js",
+    "runtime-main.js.map": "/memory-list/public/static/js/runtime-main.0b082d74.js.map",
+    "static/js/2.9cd1776a.chunk.js": "/memory-list/public/static/js/2.9cd1776a.chunk.js",
+    "static/js/2.9cd1776a.chunk.js.map": "/memory-list/public/static/js/2.9cd1776a.chunk.js.map",
+    "index.html": "/memory-list/public/index.html",
+    "precache-manifest.feb53a6fd55bed61a7a3fbabf22a7f61.js": "/memory-list/public/precache-manifest.feb53a6fd55bed61a7a3fbabf22a7f61.js",
+    "service-worker.js": "/memory-list/public/service-worker.js",
+    "static/css/main.3cb3dd96.chunk.css.map": "/memory-list/public/static/css/main.3cb3dd96.chunk.css.map",
+    "static/js/2.9cd1776a.chunk.js.LICENSE.txt": "/memory-list/public/static/js/2.9cd1776a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/memory-list/public/static/media/board.d3c0c152.jpg",
+    "static/media/ListItem.scss": "/memory-list/public/static/media/postit2.80251847.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1c7f64e.js",
+    "static/js/runtime-main.0b082d74.js",
     "static/js/2.9cd1776a.chunk.js",
-    "static/css/main.7c4738ba.chunk.css",
+    "static/css/main.3cb3dd96.chunk.css",
     "static/js/main.081a1674.chunk.js"
   ]
 }
