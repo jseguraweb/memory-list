@@ -14,13 +14,18 @@ export default class Form extends Component {
         })
     }
 
+    passInput = e => {
+        e.preventDefault();
+        this.props.getData(this.state);
+    }
+
     render() {
         return (
             <form action="#">
-                <label htmlFor="">
+                <label htmlFor="new-task">
                     <p>Enter a new task:</p>
-                    <input type="text" name="task" onChange={this.getInput} />
-                    <input className="button" type="submit" value="ADD" />
+                    <input id="new-task" type="text" name="task" onChange={this.getInput} />
+                    <input className="button" type="submit" value="ADD" onClick={this.passInput} />
                 </label>
             </form>
         )

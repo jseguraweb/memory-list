@@ -2,11 +2,11 @@ import React from 'react';
 import '../scss/Header.scss'
 import Form from './Form';
 
-const Header = () => {
+const Header = props => {
     return (
         <header>
             <h1>MEMO BOARD</h1>
-            <Form />
+            <Form getData={props.getData} />
         </header>
     );
 }
