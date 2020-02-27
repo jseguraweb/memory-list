@@ -13,7 +13,6 @@ export default class ListOfAllItems extends Component {
         let items = this.props.data.map((item, i) => <ListItem key={i} text={item.task} removeItem={this.props.removeItem} />)
         return (
             <div className="container">
-                <ListItem />
                 {items}
             </div>
         )
