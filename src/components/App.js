@@ -17,6 +17,13 @@ export default class App extends Component {
     })
   }
 
+  removeItem = item => {
+    let newState = this.state.items.filter(el => el.task !== item);
+    this.setState({
+      items: newState
+    })
+  }
+
   render() {
 
     // console.log(this.state.items);
@@ -24,7 +31,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Header getData={this.getData} />
-        <ListOfAllItems data={this.state.items} />
+        <ListOfAllItems data={this.state.items} removeItem={this.removeItem} />
       </div>
     )
   }

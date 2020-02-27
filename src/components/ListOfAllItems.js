@@ -10,10 +10,10 @@ export default class ListOfAllItems extends Component {
 
     render() {
 
-        let items = this.props.data.map((item, i) => <ListItem key={i} text={item.task} />)
-
+        let items = this.props.data.map((item, i) => <ListItem key={i} text={item.task} removeItem={this.props.removeItem} />)
         return (
             <div className="container">
+                <ListItem />
                 {items}
             </div>
         )

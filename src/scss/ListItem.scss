@@ -21,3 +21,32 @@ article {
     line-height: 1.5;
     transform: rotate(-5deg);
 }
+
+.btn {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+}
+
+.check {
+    opacity: 1;
+    bottom: 1rem;
+    right: 4rem;
+    color: green;
+}
+
+.cross {
+    opacity: 0;
+    bottom: 1rem;
+    right: 4rem;
+    color: rgb(0, 0, 0);
+}
+
+.trash {
+    bottom: 1rem;
+    right: 2rem;
+    color: red;
+}
