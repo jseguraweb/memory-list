@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Jaime Segura",
-  "homepage": "https://jseguraweb.github.io/memory-list/",
+  "homepage": "https://jseguraweb.github.io/memory-list/public/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
