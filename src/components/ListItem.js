@@ -10,7 +10,8 @@ export default class ListItem extends Component {
 
     state = {
         check: false,
-        trash: false
+        trash: false,
+        edit: false
     }
 
     changeStatus = e => {
@@ -24,6 +25,18 @@ export default class ListItem extends Component {
             check: !this.state.check
         })
         this.props.removeItem(id)
+    }
+
+    openCloseEditor = () => {
+        if (this.state.edit) {
+            this.setState({
+                edit: false
+            })
+        } else {
+            this.setState({
+                edit: true
+            })
+        }
     }
 
     editPostIt = newData => {
@@ -45,11 +58,13 @@ export default class ListItem extends Component {
                 <div className="post-it-2" style={{ opacity: opacityPostIt2 }}></div>
                 <p className="is-done">{isDone}</p>
                 <p className="note" style={{ textDecoration: changeTextDecoration }}>{this.props.text}</p>
-                <button className="btn edit"><FaEdit onClick={this.oldTaskName} /></button>
+                <button className="btn edit"><FaEdit onClick={this.openCloseEditor} /></button>
                 <button className="btn check" style={{ opacity: opacityCheck }} onClick={this.changeStatus}><FaCheck /></button>
                 <button className="btn cross" style={{ opacity: opacityCross }} onClick={this.changeStatus}><FaTimes /></button>
                 <button className="btn trash" onClick={() => this.deleteItem(this.props.text)}><FaTrash /></button>
-                <FormEdit editPostIt={this.editPostIt} />
+                <div>{
+                    this.state.edit ? <FormEdit editPostIt={this.editPostIt} closeEditor={this.openCloseEditor} /> : false
+                }</div>
             </article>
         );
     }

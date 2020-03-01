@@ -18,6 +18,7 @@ export default class FormEdit extends Component {
         this.setState({
             task: ''
         })
+        this.props.closeEditor();
     }
 
     render() {
