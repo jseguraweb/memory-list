@@ -1,0 +1,17 @@
+.edit-form {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.edit-text {
+    width: 70%;
+}
+
+.edit-btn {
+    width: 25%;
+}

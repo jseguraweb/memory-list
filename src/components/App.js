@@ -17,6 +17,13 @@ export default class App extends Component {
     })
   }
 
+  editData = (oldTask, newData) => {
+    let newState = [...this.state.items].map(item => item.task === oldTask ? item.task = newData : item);
+    this.setState({
+      items: newState
+    })
+  }
+
   removeItem = item => {
     let newState = this.state.items.filter(el => el.task !== item);
     this.setState({
@@ -31,7 +38,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Header getData={this.getData} />
-        <ListOfAllItems data={this.state.items} removeItem={this.removeItem} />
+        <ListOfAllItems data={this.state.items} removeItem={this.removeItem} editData={this.editData} />
       </div>
     )
   }

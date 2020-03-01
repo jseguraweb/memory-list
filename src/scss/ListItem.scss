@@ -48,17 +48,24 @@ article {
     z-index: 5;
 }
 
+.edit {
+    opacity: 1;
+    bottom: 1rem;
+    right: 8rem;
+    color: blue;
+}
+
 .check {
     opacity: 1;
     bottom: 1rem;
-    right: 4rem;
+    right: 5rem;
     color: green;
 }
 
 .cross {
     opacity: 0;
     bottom: 1rem;
-    right: 4rem;
+    right: 5rem;
     color: rgb(0, 0, 0);
 }
 
