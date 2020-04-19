@@ -4,7 +4,7 @@
 
 > React-App Project: create to do list where you can manipulate the tasks
 
-<img src="https://res.cloudinary.com/jimbocloud/image/upload/v1585934809/my-repos/memo-list.png" title="screenshot" alt="screenshot">
+<img src="https://jseguraweb.github.io/memory-list/" title="screenshot" alt="screenshot">
 
 
 > ## Details:
