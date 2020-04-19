@@ -1,10 +1,11 @@
 ![](./screenshots/logo.png)
 
-# <a href="https://jseguraweb.github.io/journal-app/">Memory List App</a>
+# <a href="https://jseguraweb.github.io/memory-list/">Memory List App</a>
 
 > React-App Project: create to do list where you can manipulate the tasks
 
-<img src="https://jseguraweb.github.io/memory-list/" title="screenshot" alt="screenshot">
+
+![](/screenshots/screenshot.png)
 
 
 > ## Details:
