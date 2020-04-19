@@ -10,7 +10,6 @@ export default class ListItem extends Component {
 
     state = {
         check: false,
-        trash: false,
         edit: false
     }
 
@@ -21,9 +20,6 @@ export default class ListItem extends Component {
     }
 
     deleteItem = (id) => {
-        this.setState({
-            check: !this.state.check
-        })
         this.props.removeItem(id)
     }
 
